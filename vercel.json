@@ -2,19 +2,16 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "api/**/*.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "server.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "index.html"
+      "src": "/api/send-sms",
+      "dest": "/api/send-sms.js"
     }
   ]
 }
+
 
