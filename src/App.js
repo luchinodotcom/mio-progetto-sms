@@ -143,11 +143,15 @@ const App = () => {
         payload.scheduleTime = format(adjustedTime, "mm HH dd MM *");
       }
 
-      const response = await axios.post('http://localhost:3000/api/send-sms', payload, {
+      const apiUrl = process.env.NODE_ENV === 'development' 
+      ? 'http://localhost:3000/api/send-sms'
+      : '/api/send-sms';
+
+      const response = await axios.post(apiUrl, payload, {
         headers: {
           'Content-Type': 'application/json'
-        }
-      });
+      }
+    });
       
       if (response.data.success) {
         setMessage('');
