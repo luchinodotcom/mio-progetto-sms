@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mio-progetto-sms/static/css/main.e6c13ad2.css",
+    "main.js": "/mio-progetto-sms/static/js/main.372cdf4c.js",
+    "static/js/453.37ea35c5.chunk.js": "/mio-progetto-sms/static/js/453.37ea35c5.chunk.js",
+    "index.html": "/mio-progetto-sms/index.html",
+    "main.e6c13ad2.css.map": "/mio-progetto-sms/static/css/main.e6c13ad2.css.map",
+    "main.372cdf4c.js.map": "/mio-progetto-sms/static/js/main.372cdf4c.js.map",
+    "453.37ea35c5.chunk.js.map": "/mio-progetto-sms/static/js/453.37ea35c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.372cdf4c.js"
+  ]
+}
